@@ -118,6 +118,7 @@ margin: 48px 97px;
     opacity: 0.7;
     font-size: 16px;
     font-family: Azeret Mono;
+    text-align: center;
 
 
 }
@@ -153,4 +154,53 @@ text-align: left;
 .vid{
     border-radius: 16px;
 
+}
+
+/* section3 */
+
+.box{
+    
+    display: flex;
+    justify-content:space-between;
+    margin-top: 48px;
+  
+
+}
+
+.box-child{
+    padding: 80px;
+    width: 284px;
+    
+}
+
+.color1{
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+
+}
+
+.color2{
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+
+.color3{
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+
+h5{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+a{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
 }
