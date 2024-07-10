@@ -27,10 +27,8 @@ text-align: center;
 .banner-description{
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
-font-size: 20px;
+font-size: 16px;
 font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
 
@@ -48,7 +46,7 @@ padding: 21px 24px 21px 24px;
 display: block;
 margin: auto;
 }
-
+/* //Section 2 */
 main{
     width: 1440px;
     margin: 0 auto;
@@ -118,9 +116,11 @@ margin: 48px 97px;
 }
 .pera{
     opacity: 0.7;
+    font-size: 16px;
+    font-family: Azeret Mono;
+
 
 }
-
 .heading{
 color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
@@ -129,4 +129,28 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
+}
+
+/* Section3 */
+
+.Inspiration{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 48px;
+}
+
+.video{
+
+    padding: 48px 40px;
+    
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vid{
+    border-radius: 16px;
+
 }
